@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/attention_iv"
+            android:layout_width="87dp"
+            android:layout_height="69dp"
+            android:layout_marginBottom="12.5dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="12.5dp"
+            android:scaleType="fitXY"
+            android:src="@mipmap/ic_launcher" />
+
+        <LinearLayout
+            android:padding="15dp"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/attention_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#4c4c4c"
+                android:textSize="14sp"
+                android:text="西溪北湾一单元"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_marginTop="12dp"
+                    android:textSize="14sp"
+                    android:id="@+id/attention_location"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@mipmap/r_dingwei"
+                    android:drawablePadding="5dp"
+                    android:text="杭州市余杭区"/>
+                <TextView
+                    android:layout_marginTop="12dp"
+                    android:id="@+id/attention_eara"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:drawableLeft="@mipmap/r_biaodimianji"
+                    android:drawablePadding="5dp"
+                    android:text="面积100平米"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/attention_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:drawableLeft="@mipmap/r_shijian"
+                android:drawablePadding="5dp"
+                android:text="开拍时间: 2017年3月2日 10:00"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+<TextView
+    android:layout_marginRight="10dp"
+    android:layout_marginLeft="10dp"
+    android:background="#b0b0b0"
+    android:layout_width="match_parent"
+    android:layout_height="1dp" />
+
+</LinearLayout>

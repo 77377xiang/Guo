@@ -1,0 +1,21 @@
+
+    判断状态
+     background_red = 1;//延时
+     background_greed = 2 ;//进行中
+     background_red_j = 3;// 已结束
+
+
+     判断加载的 跳转到不同的详情界面
+
+    type 1  带审核
+         2   通过
+         3   退回
+         4   更多
+
+
+
+
+    type 1  带审核
+         2   通过
+         3   退回
+         4   上拍

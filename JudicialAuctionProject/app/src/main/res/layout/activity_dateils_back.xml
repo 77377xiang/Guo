@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/title" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#c82015" />
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/checkbox_lv"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <EditText
+
+                android:id="@+id/text_new_et"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/edit_bg"
+                android:gravity="end|left"
+                android:hint="请输入文字备注信息"
+                android:textColorHint="#b0b0b0" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!-- minHeight消除主界面上的一些间距 -->
+
+                <com.yude.judicialauctionproject.views.voice.AudioRecordButton
+                    android:id="@+id/recordButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="7dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="6dp"
+                    android:background="@drawable/button_recordnormal"
+                    android:gravity="center"
+                    android:minHeight="0dp"
+                    android:padding="5dp"
+                    android:text="@string/normal"
+                    android:textColor="#f0f0f0"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#ccc"
+                    android:visibility="gone" />
+            </FrameLayout>
+
+            <Button
+                android:background="@drawable/login_button_selector"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:text="按住录音"
+                android:visibility="gone" />
+
+            <Button
+
+                android:layout_marginTop="60dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="#f0f0f0"
+                android:background="@drawable/login_button_selector"
+                android:id="@+id/ok_back_btn"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:text="退回" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
+
+
+    <!--<fragment--><!--android:visibility="gone"--><!--android:layout_weight="1"--><!--android:id="@+id/checkbox"--><!--android:name="com.yude.judicialauctionproject.fragment.markfagment.BackDateilsFragment"--><!--android:layout_width="match_parent"--><!--android:layout_height="0dp" />-->
+

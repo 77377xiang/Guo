@@ -1,0 +1,33 @@
+<resources>
+    <!--登陆按钮-->
+    <drawable name="clr_normal">#c82015</drawable>
+    <drawable name="clr_pressed">#999999</drawable>
+    <drawable name="clr_white">#f0f0f0</drawable>
+
+    <string name="app_name">JudicialAuctionProject</string>
+    <string name="loading">加载中...</string>
+    <string name="load_again">重新加载</string>
+    <string name="last_attention_time">最后刷新时间: 2014-10-10 12:56:12</string>
+    <string name="down_new">下拉刷新</string>
+    <string name="load_more">加载更多...</string>
+    <string name="load_more_">正在加载...</string>
+    <string name="cancel_attention">取消关注</string>
+    <string name="set">我的特别关注</string>
+
+
+<!--语音有关-->
+    <string  name="normal">按住 说话</string>
+    <string  name="recording">松开 结束</string>
+    <string  name="want_to_cancle">松开手指，取消发送</string>
+    <string name="shouzhishanghua">手指上滑，取消发送</string>
+    <string name="tooshort">录音时间过短</string>
+
+
+    <string-array name="indicator_string_array">
+        <item>公历</item>
+        <item>农历</item>
+    </string-array>
+
+    <string name="input_type_num_char">1234567890_abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+
+</resources>

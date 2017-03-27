@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/attention_iv"
+        android:layout_width="87dp"
+        android:layout_height="69dp"
+        android:layout_marginBottom="14.5dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="14.5dp"
+        android:scaleType="fitXY"
+        android:src="@mipmap/ic_launcher" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:paddingLeft="15dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/attention_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="西溪北湾一单元"
+                android:textColor="#4c4c4c"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/reason_tv"
+                android:textColor="#c82015"
+                android:layout_gravity="right"
+                android:gravity="center"
+                android:layout_marginLeft="10dp"
+                android:text="车辆有违章"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/attention_location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:drawableLeft="@mipmap/r_dingwei"
+                android:drawablePadding="5dp"
+                android:text="杭州市余杭区"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/attention_eara"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="12dp"
+                android:drawableLeft="@mipmap/r_biaodimianji"
+                android:drawablePadding="5dp"
+                android:text="面积100平米" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/attention_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@mipmap/r_shijian"
+            android:drawablePadding="5dp"
+            android:text="开拍时间: 2017年3月2日 10:00" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:padding="3dp"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/r_guohaoshifu_q" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="25.5dp"
+                android:layout_marginLeft="49.75dp"
+                android:layout_marginRight="75dp"
+                android:layout_marginTop="40dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/r_shoujihao1"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/phone_number_et"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginStart="20dp"
+                    android:background="@null"
+                    android:hint="请输入手机号"
+                    android:textSize="11sp" />
+
+            </LinearLayout>
+
+            <Button
+                android:visibility="gone"
+                android:textColor="#f0f0f0"
+                android:background="@drawable/login_button_selector"
+                android:textSize="11sp"
+                android:text="发送验证码"
+                android:layout_marginRight="50dp"
+                android:layout_gravity="right|bottom"
+                android:layout_width="80dp"
+                android:layout_height="36dp" />
+
+
+        </FrameLayout>
+
+        <View
+            android:layout_width="275.5dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="5dp"
+            android:background="#c82015" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="25.5dp"
+                android:layout_marginLeft="49.75dp"
+                android:layout_marginRight="75dp"
+                android:layout_marginTop="40dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/r_yanzhenma1"
+                    android:textSize="18sp" />
+
+                <EditText
+
+                    android:id="@+id/input_code_et"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginStart="20dp"
+                    android:background="@null"
+                    android:hint="请输入验证码"
+                    android:textSize="11sp" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/code_btn"
+                android:textColor="#f0f0f0"
+                android:background="@drawable/login_button_selector"
+                android:textSize="11sp"
+                android:text="发送验证码"
+                android:layout_marginRight="50dp"
+                android:layout_gravity="right|bottom"
+                android:layout_width="80dp"
+                android:layout_height="36dp" />
+
+
+        </FrameLayout>
+
+
+        <View
+            android:layout_width="275.5dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="5dp"
+            android:background="#c82015" />
+
+
+        <Button
+            android:layout_marginTop="75dp"
+            android:id="@+id/account_login_btn"
+            android:layout_width="275.5dp"
+            android:layout_height="46dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/login_button_selector"
+            android:text="登录"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/pwd_login_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text=" 密码登录"
+        android:textColor="#999999"
+        android:textSize="15sp" />
+
+    <TextView
+        android:gravity="bottom"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text=" 聿德网络科技"
+        android:textColor="#999999"
+        android:textSize="8sp" />
+
+</LinearLayout>

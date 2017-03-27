@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    package="com.yude.judicialauctionproject">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />// 震动
+    // 语音 所需权限
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+        tools:replace="Android:icon, android:theme">
+        <activity android:name=".activitys.WelcomeActivity">
+
+        </activity>
+
+        <activity android:name=".MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activitys.LoginActivity" />
+        <activity android:name=".activitys.my_activity.ConcernActivity" />
+        <activity android:name=".activitys.my_activity.SettingActivity" />
+        <activity android:name=".activitys.my_activity.ChangePasswordActivity" />
+        <activity android:name=".activitys.mark_activity.FallbackActivity" />
+        <activity android:name=".activitys.mark_activity.ReleaseCompleteActivity" />
+        <activity android:name=".activitys.mark_activity.UnpublishedActivity" />
+        <activity android:name=".activitys.mark_activity.ImageActivity" />
+        <activity
+            android:name=".activitys.ForgetPwdActivity"
+            android:theme="@style/translucent" />
+
+        <activity android:name=".activitys.NewPwdActivity" />
+        <activity android:name=".activitys.PhoneVerificationActivity" />
+        <activity android:name=".activitys.my_activity.ClipImageActivity" />
+
+        <activity android:name=".activitys.mark_activity.mark_details.DateilsActivity" />
+        <activity android:name=".activitys.mark_activity.mark_details.UnpublishedDateilsActivity" />
+        <activity android:name=".activitys.mark_activity.mark_details.BaterDateilsActivity" />
+        <activity android:name=".activitys.mark_activity.mark_details.SucceesDateilsActivity" />
+        <activity android:name=".activitys.mark_activity.mark_details.activitys.DetailsFavoriteNewActivity" />
+        <activity android:name=".activitys.mark_activity.mark_details.activitys.DetailsBooksActivity" />
+        <activity android:name=".activitys.mark_activity.mark_details.activitys.DetailsExplainActivity" />
+        <activity android:name=".activitys.mark_activity.mark_details.activitys.DetailsMarkBriefActivity" />
+        <activity android:name=".activitys.mark_activity.mark_details.activitys.DetailsPlayListActivity" />
+        <activity android:name=".activitys.mark_activity.mark_details.activitys.DetailsMustKnowActivity" />
+        <activity android:name=".activitys.mark_activity.mark_details.activitys.DetailsNoticeActivity" />
+        //回退理由
+        <activity android:name=".activitys.mark_activity.mark_details.activitys.BackDateilsActivity"/>
+
+        <activity android:name=".activitys.mark_activity.mark_details.TestDateilsActivity">
+
+        </activity>
+
+    </application>
+
+</manifest>

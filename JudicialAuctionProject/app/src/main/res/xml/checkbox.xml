@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="flight_columns_pref"
+    android:summary="Set Columns for Search Results"
+    android:title="Flight Search Prefereces">
+    <CheckBoxPreference
+        android:key="show_airline_column_pref"
+        android:title="房产证不符" />
+    <CheckBoxPreference
+        android:key="show_departure_column_pref"
+        android:title="信息与执行人不符" />
+    <CheckBoxPreference
+        android:key="show_arrival_column_pref"
+        android:title="标的介绍物不清晰" />
+    <CheckBoxPreference
+        android:key="show_total_travel_time_column_pref"
+        android:title="拍卖公告有问题" />
+    <CheckBoxPreference
+        android:key="show_price_column_pref"
+        android:title="房产证有问题" />
+
+    <CheckBoxPreference
+        android:key="show_price_column_pref"
+        android:title="车辆有故障" />
+    <CheckBoxPreference
+        android:key="show_price_column_pref"
+        android:title="厂房有纠纷" />
+    <CheckBoxPreference
+        android:key="show_price_column_pref"
+        android:title="厂房塌陷" />
+
+
+</PreferenceScreen>

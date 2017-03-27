@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="windowBackground">#ffffff</color><!--默认背景颜色-->
+    <color name="windowBackgroundGray">@color/_f6f6f6_bg</color><!--灰色背景背景颜色-->
+
+    <color name="statusBarBg">@color/_d9d9d9_border</color><!--状态栏背景颜色-灰色-->
+    <color name="statusBarBgWhite">#fbfbfb</color><!--状态栏背景颜色-白色-->
+    <color name="titleBarColor">#fbfbfb</color> <!--标题栏背景颜色-->
+
+    <!--颜色规范//-->
+    <!--常用颜色-->
+    <color name="_ff5722">#ff5722</color>
+    <color name="_ff4081">#ff4081</color>
+    <color name="_9c27b0">#9c27b0</color>
+    <color name="_651eff">#651eff</color>
+    <color name="_019688">#019688</color>
+    <color name="_2196f3">#2196f3</color>
+    <color name="_ffeb3b">#ffeb3b</color>
+    <color name="_4cb051">#4cb051</color>
+    <color name="_ffc104">#ffc104</color>
+    <color name="_ff9802">#ff9802</color>
+    <color name="_795548">#795548</color>
+    <color name="_000000">#000000</color>
+    <color name="_607d8a">#607d8a</color>
+    <color name="_ffffff">#ffffff</color>
+    <color name="_eeeeee">#eeeeee</color>
+    <color name="_e5e5e5">#e5e5e5</color>
+    <color name="_f7f7f7">#f7f7f7</color>
+    <color name="_d9d9d9">#d9d9d9</color>
+    <color name="_cccccc">#cccccc</color>
+    <color name="_b3b3b3">#b3b3b3</color>
+    <color name="_999999">#999999</color>
+    <color name="_666666">#666666</color>
+
+    <color name="_c82015">#c82015</color>
+    <color name="_727272">#727272</color>
+    <!--字体常用颜色-->
+    <color name="_b0b0b0_word">#b0b0b0</color>
+    <color name="_ffffff_word">#ffffff</color>
+    <color name="_cccccc_word">#cccccc</color>
+    <color name="_999999_word">#999999</color>
+    <color name="_333333_word">#333333</color>
+    <color name="_000000_word">#000000</color>
+    <color name="_4c4c4c_word">#4c4c4c</color>
+
+    <!--常用背景颜色-->
+
+    <color name="_ffffff_bg">#ffffff</color>
+    <color name="_f5f7fa_bg">#f5f7fa</color>
+    <color name="_cccccc_bg">#cccccc</color>
+    <color name="_ff5267_bg">#ff5267</color>
+    <color name="_019688_bg">#019688</color>
+    <color name="_2196f3_bg">#2196f3</color>
+    <!--描边常用颜色-->
+    <color name="_ebebeb_border">#ebebeb</color><!--浅色分割线-->
+    <color name="_d9d9d9_border">#d9d9d9</color><!--深色分割线-->
+    <color name="_cccccc_border">#cccccc</color>
+    <color name="_000000_border">#000000</color>
+
+
+    <!--透明度//0全透//255不透明//-->
+    <!--00%=FF（不透明）    5%=F2    10%=E5    15%=D8    20%=CC    25%=BF    30%=B2    35%=A5    40%=99    45%=8c    50%=7F-->
+    <!--55%=72        60%=66    65%=59    70%=4c    75%=3F    80%=33    85%=21    90%=19    95%=0c    100%=00（全透明）-->
+    <color name="_000000_alpha95">#0c000000</color>
+    <color name="_cccccc_alpha80">#33cccccc</color>
+    <color name="_000000_alpha25">#bf000000</color>
+    <color name="_000000_alpha100">#00000000</color>
+    <color name="_000000_alpha80">#33000000</color>
+    <color name="_000000_alpha60">#66000000</color>
+    <color name="_000000_alpha50">#7F000000</color>
+    <color name="_ffffff_alpha50">#7Fffffff</color>
+    <color name="_ffffff_alpha80">#33ffffff</color>
+
+    <color name="province_line_border">#C7C7C7</color>
+    <color name="_b2a275">#b2a275</color>
+    <color name="_b2a275_7F">#7Fb2a275</color>
+    <color name="_a7abad">#a7abad</color>
+    <color name="_a7abad_7F">#7Fa7abad</color>
+
+    <!--version 3.1.0-->
+    <color name="_f6f6f6_bg">#f6f6f6</color><!--在有背景色的页面统一用些背景色，色值为：#F6F6F6-->
+    <color name="_808080">#808080</color>
+    <color name="_f56e23">#f56e23</color>
+    <color name="_f8e71c">#f8e71c</color>
+    <color name="_333333">#333333</color>
+    <color name="_9e9e9e">#9e9e9e</color>
+    <color name="_494949">#494949</color>
+    <color name="_3a3a3a">#3a3a3a</color>
+    <color name="_ebebeb">#ebebeb</color><!--线颜色统一为#EBEBEB-->
+    <color name="_9b9b9b">#9b9b9b</color>
+    <color name="_e6e6e6">#e6e6e6</color>
+
+    <color name="translucent_background">#60000000</color>
+
+
+    <!--日历-->
+    <color name="colorGregorian">#ff3388ff</color>
+    <color name="colorLunar">#ffee5544</color>
+    <color name="colorPickerTextNormal">#FF555555</color>
+    <color name="colorPickerTextSelected">#FFF56313</color>
+    <color name="colorIndicatorTextNormal">#FF555555</color>
+    <color name="colorTransparent">#00000000</color>
+    <color name="colorWhite">#ffffffff</color>
+
+
+</resources>
