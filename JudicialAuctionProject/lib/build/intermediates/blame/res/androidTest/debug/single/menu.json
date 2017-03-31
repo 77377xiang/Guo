@@ -2,5 +2,9 @@
     {
         "merged": "/Users/hexiang/Downloads/AndroidDemo/yude/JudicialAuctionProject/lib/build/intermediates/res/merged/androidTest/debug/menu/menu_main.xml",
         "source": "/Users/hexiang/Downloads/AndroidDemo/yude/JudicialAuctionProject/lib/build/intermediates/bundles/debug/res/menu/menu_main.xml"
+    },
+    {
+        "merged": "/Users/hexiang/Downloads/Guo/GuoHao/JudicialAuctionProject/lib/build/intermediates/res/merged/androidTest/debug/menu/menu_main.xml",
+        "source": "/Users/hexiang/Downloads/Guo/GuoHao/JudicialAuctionProject/lib/build/intermediates/bundles/debug/res/menu/menu_main.xml"
     }
 ]

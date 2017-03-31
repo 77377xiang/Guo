@@ -27,7 +27,7 @@
 
         </activity>
 
-        <activity android:name=".MainActivity" >
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -62,12 +62,9 @@
         <activity android:name=".activitys.mark_activity.mark_details.activitys.DetailsMustKnowActivity" />
         <activity android:name=".activitys.mark_activity.mark_details.activitys.DetailsNoticeActivity" />
         //回退理由
-        <activity android:name=".activitys.mark_activity.mark_details.activitys.BackDateilsActivity"/>
-
-        <activity android:name=".activitys.mark_activity.mark_details.TestDateilsActivity">
-
-        </activity>
-
+        <activity android:name=".activitys.mark_activity.mark_details.activitys.BackDateilsActivity" />
+        <activity android:name=".activitys.mark_activity.mark_details.TestDateilsActivity"></activity>
+        <activity android:name=".activitys.mark_activity.mark_details.activitys.FallBckeDateilsActivity"></activity>
     </application>
 
 </manifest>

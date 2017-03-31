@@ -12,6 +12,7 @@ import com.yude.judicialauctionproject.activitys.mark_activity.mark_details.Bate
 import com.yude.judicialauctionproject.activitys.mark_activity.mark_details.DateilsActivity;
 import com.yude.judicialauctionproject.activitys.mark_activity.mark_details.SucceesDateilsActivity;
 import com.yude.judicialauctionproject.activitys.mark_activity.mark_details.UnpublishedDateilsActivity;
+import com.yude.judicialauctionproject.activitys.mark_activity.mark_details.activitys.FallBckeDateilsActivity;
 import com.yude.judicialauctionproject.adapter.RecycleHolder;
 import com.yude.judicialauctionproject.adapter.markadapter.Pull_Mark_releaseComplteRecyclerAdapter;
 import com.yude.judicialauctionproject.base.BaseFragment;
@@ -294,8 +295,8 @@ public abstract class MarkGroupFragment extends BaseFragment {
 
                 if (type() == 3) {
                     Toast.makeText(getContext(), "已退回的详情", Toast.LENGTH_LONG).show();
-                    // Intent intent = new Intent(getContext(), DateilsActivity.class);
-                    // startActivity(intent);
+                     Intent intent = new Intent(getContext(), FallBckeDateilsActivity.class);
+                     startActivity(intent);
                 }
 
 
